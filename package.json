@@ -1,0 +1,24 @@
+{
+  "name": "testcafe_framework",
+  "version": "1.0.0",
+  "description": "My first testcafe framework",
+  "main": "index.js",
+  "scripts": {
+    "testCafeTest": "testcafe chrome _Modules/*test.ts --env=Test --reporter html:TestResult.html",
+    "testCafeDev": "testcafe chrome _Modules/*dev.ts --env=dev --reporter html:DevResult.html",
+    "testAll": "testcafe chrome _Modules/*.ts --env=dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "framework"
+  ],
+  "author": "MadanRaj",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.8.8"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
