@@ -16,7 +16,7 @@
   "author": "MadanRaj",
   "license": "ISC",
   "devDependencies": {
-    "testcafe": "^1.8.8"
+    "testcafe": "^1.20.1"
   },
   "dependencies": {
     "testcafe-reporter-html": "^1.4.6"
